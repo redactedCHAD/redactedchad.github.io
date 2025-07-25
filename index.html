@@ -1,89 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OSINT Mastery Course</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0e0e0e;
-      color: #e0e0e0;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #00ffff;
-    }
-    .hero {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .cta-button {
-      display: inline-block;
-      background: #00ffff;
-      color: #000;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-    .section {
-      margin-bottom: 2rem;
-    }
-    .review {
-      font-style: italic;
-      border-left: 4px solid #00ffff;
-      padding-left: 1rem;
-      margin: 1rem 0;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="hero">
-      <h1>🕵️ OSINT Mastery: Digital Intelligence Course</h1>
-      <p>Discover hidden data, scan networks, and become an OSINT specialist with hands-on, practical training.</p>
-      <a class="cta-button" href="#enroll">🔐 Enroll Now</a>
-    </div>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLO Alchemist – Skin Care Clinic</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+    *{font-family:'Inter',sans-serif;}
+    .animate-fade-in{animation:fadeIn .8s ease-out forwards;opacity:0;}
+    .animate-slide-up{animation:slideUp .8s ease-out forwards;opacity:0;transform:translateY(30px);}
+    .animate-slide-right{animation:slideRight .8s ease-out forwards;opacity:0;transform:translateX(-30px);}
+    .animate-float{animation:float 6s ease-in-out infinite;}
+    @keyframes fadeIn{to{opacity:1}}
+    @keyframes slideUp{to{opacity:1;transform:translateY(0)}}
+    @keyframes slideRight{to{opacity:1;transform:translateX(0)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .delay-100{animation-delay:.1s}.delay-200{animation-delay:.2s}.delay-300{animation-delay:.3s}.delay-400{animation-delay:.4s}.delay-500{animation-delay:.5s}.delay-600{animation-delay:.6s}
+    </style>
+    </head>
+    
+    <body class="min-h-full bg-gradient-to-br antialiased from-orange-50 to-stone-100 text-orange-950">
 
-    <div class="section">
-      <h2>🎯 What You'll Learn</h2>
-      <ul>
-        <li>Install & configure Kali Linux</li>
-        <li>Run deep network scans with Nmap</li>
-        <li>Use Shodan to find exposed devices</li>
-        <li>Extract intelligence using Google Dorks</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>🧠 Who Should Take This Course?</h2>
-      <ul>
-        <li>Cybersecurity Students</li>
-        <li>Ethical Hackers</li>
-        <li>Researchers & Journalists</li>
-        <li>IT Professionals</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>💬 What Our Students Say</h2>
-      <div class="review">“The best OSINT course I’ve taken – practical, concise, and well-structured.” – Aiden L.</div>
-      <div class="review">“Perfect mix of ethical hacking and digital sleuthing.” – Maria R.</div>
-    </div>
-
-    <div class="section" id="enroll">
-      <h2>🎓 Start Learning Now</h2>
-      <p>Get lifetime access, downloadable resources, and a Certificate of Completion.</p>
-      <a class="cta-button" href="#">✅ Join Now</a>
-    </div>
-  </div>
-</body>
-</html>
+    
+    <!-- Hero backdrop -->
+    <div class="fixed inset-0 -z-10 bg-cover bg-center opacity-20" style="background-image:url('https://images.unsplash.com/photo-1614609725265-4b9c66fb3b89?q=80&amp;w=2800');"></div>
+    
+    <header class="lg:py-8 animate-fade-in pt-6 pb-6">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        <a href="#" class="flex items-center space-x-3 group">
+          <div class="h-9 w-9 bg-gradient-to-tr from-orange-500 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform to-amber-700">
+            <svg data-lucide="flame" class="lucide h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"></svg>
+          </div>
+          <span class="text-xl font-semibold tracking-tight">GLO Alchemist</span>
+        </a>
+    
+        <!-- Desktop nav -->
+        <div class="hidden lg:flex gap-8 text-sm font-medium">
+          <a href="#" class="hover:underline underline-offset-4">Treatments</a>
+          <a href="#" class="hover:underline underline-offset-4">Products</a>
+          <a href="#" class="hover:underline underline-offset-4">Memberships</a>
+          <a href="#" class="hover:underline underline-offset-4">About</a>
+          <a href="#" class="hover:underline underline-offset-4">Contact</a>
+        </div>
+    
+        <div class="hidden lg:flex items-center space-x-3">
+          <button class="px-4 py-2 text-sm font-medium hover:text-orange-900">Sign In</button>
+          <button class="px-5 py-2.5 text-sm font-medium rounded-lg shadow-sm text-white bg-orange-900 hover:bg-orange-800">Book Now</button>
+        </div>
+    
+        <!-- Mobile burger -->
+        <button id="mobileToggle" class="lg:hidden p-2 rounded-lg hover:bg-white/20" aria-label="Menu">
+          <svg data-lucide="menu" class="lucide h-5 w-5" xmlns="http://www.w3.org/2000/svg"></svg>
+        </button>
+      </nav>
+    
+      <!-- Mobile drawer -->
+      <div id="mobileDrawer" class="fixed inset-0 backdrop-blur-md z-50 hidden lg:hidden bg-white/90">
+        <div class="flex items-center justify-between p-4 border-b border-orange-100">
+          <a href="#" class="flex items-center space-x-3">
+            <div class="h-9 w-9 rounded-xl flex items-center justify-center bg-gradient-to-r from-orange-400 to-amber-600">
+              <svg data-lucide="flame" class="lucide h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"></svg>
+            </div>
+            <span class="text-xl font-semibold">GLO Alchemist</span>
+          </a>
+          <button id="mobileClose" class="p-2 rounded-lg hover:bg-white/40" aria-label="Close">
+            <svg data-lucide="x" class="lucide h-5 w-5" xmlns="http://www.w3.org/2000/svg"></svg>
+          </button>
+        </div>
+        <div class="p-4 space-y-4">
+          <a href="#" class="block py-3 text-lg font-medium hover:text-orange-900">Treatments</a>
+          <a href="#" class="block py-3 text-lg font-medium hover:text-orange-900">Products</a>
+          <a href="#" class="block py-3 text-lg font-medium hover:text-orange-900">Memberships</a>
+          <a href="#" class="block py-3 text-lg font-medium hover:text-orange-900">About</a>
+          <a href="#" class="block py-3 text-lg font-medium hover:text-orange-900">Contact</a>
+          <div class="border-t pt-4 space-y-3 border-orange-100">
+            <button class="w-full py-2.5 text-sm font-medium border rounded-lg border-orange-200 hover:bg-orange-50">Sign In</button>
+            <button class="w-full py-2.5 text-sm font-medium rounded-lg text-white bg-orange-900 hover:bg-orange-800">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main class="max-w-7xl sm:px-6 lg:px-8 mx-auto px-4 pb-16">
+      <div class="rounded-3xl shadow-xl overflow-hidden bg-white/60 shadow-white/40">
+        <div class="lg:grid lg:grid-cols-2">
+    
+          <!-- Hero copy -->
+          <section class="sm:px-12 lg:py-20 flex flex-col pt-14 px-6 pb-14 justify-center">
+            <div class="animate-slide-right delay-100 inline-flex items-center px-3 py-1 bg-gradient-to-r border rounded-full text-sm font-medium mb-6 from-orange-100 to-orange-200 border-orange-300">
+              <svg data-lucide="sparkles" class="lucide h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg"></svg>
+              Science-Backed Glow
+            </div>
+    
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight font-manrope font-light animate-slide-right delay-200">
+              Unveil&nbsp;Your<br>
+              <span class="bg-clip-text text-transparent bg-gradient-to-r to-yellow-500 from-amber-600 via-orange-600">Radiant&nbsp;Skin</span>
+            </h1>
+    
+            <p class="mt-6 text-lg sm:text-xl leading-relaxed max-w-lg animate-slide-right delay-300">
+              Personalized facials, advanced LED therapy and luxury botanicals—expertly blended to craft your unique glow journey.
+            </p>
+    
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 animate-slide-right delay-400">
+              <button class="inline-flex items-center justify-center px-8 py-4 rounded-xl font-medium shadow-lg hover:shadow-xl group text-white bg-orange-900 hover:bg-orange-800">
+                Book a Facial
+                <svg data-lucide="arrow-right" class="lucide h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg"></svg>
+              </button>
+              <button class="inline-flex items-center justify-center px-8 py-4 border rounded-xl font-medium group border-orange-300 hover:bg-orange-50">
+                <svg data-lucide="play" class="lucide h-4 w-4 mr-2 group-hover:scale-110 transition-transform" xmlns="http://www.w3.org/2000/svg"></svg>
+                Watch Studio Tour
+              </button>
+            </div>
+    
+            <!-- Stats -->
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-md animate-slide-right delay-500">
+              <div class="flex items-start space-x-4 group">
+                <div class="w-12 h-12 bg-gradient-to-r rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform from-orange-300 to-orange-100">
+                  <svg data-lucide="users" class="lucide h-6 w-6 text-green-600" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <div>
+                  <p class="text-2xl font-manrope font-light">12k+</p>
+                  <p class="text-sm leading-relaxed">Happy Clients</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4 group">
+                <div class="w-12 h-12 bg-gradient-to-r rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform from-orange-200 to-orange-200">
+                  <svg data-lucide="star" class="lucide h-6 w-6 text-yellow-600" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <div>
+                  <p class="text-2xl font-manrope font-light">9.6/10</p>
+                  <p class="text-sm leading-relaxed">Average Rating</p>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <!-- Hero visual (new image) -->
+          <section class="relative lg:py-20 sm:px-12 pt-12 px-6 pb-12">
+            <!-- Decorative blob -->
+            <div class="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-br from-orange-400 to-yellow-500 opacity-30 rounded-full animate-float"></div>
+    
+            <!-- Photograph container -->
+            <div class="relative w-full h-full animate-fade-in delay-300">
+              <div class="aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-2xl border border-orange-100">
+                <img src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?q=80&amp;w=2600" alt="Client enjoying a rejuvenating facial treatment at GLO Alchemist" class="object-cover w-full h-full">
+                <!-- Subtle gradient overlay for contrast -->
+                <div class="absolute inset-0 bg-gradient-to-t from-orange-950/30 via-orange-900/10 to-transparent"></div>
+              </div>
+            </div>
+          </section>
+    
+        </div>
+      </div>
+    
+      <!-- Analytics / Chart -->
+      <section class="animate-fade-in mt-24">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-3xl sm:text-4xl tracking-tight font-semibold mb-6">Monthly Bookings</h2>
+          <p class="mb-10 max-w-2xl">Real-time insight into how many glow-seekers are reserving treatments each month.</p>
+    
+          <div class="border rounded-2xl p-6 bg-white/60 border-orange-100">
+            <div>
+              <canvas id="bookingChart" height="252"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    lucide.createIcons();
+    
+    // mobile nav
+    const toggle=document.getElementById('mobileToggle');
+    const drawer=document.getElementById('mobileDrawer');
+    const close=document.getElementById('mobileClose');
+    toggle?.addEventListener('click',()=>drawer.classList.remove('hidden'));
+    close?.addEventListener('click',()=>drawer.classList.add('hidden'));
+    drawer?.addEventListener('click',e=>{if(e.target===drawer)drawer.classList.add('hidden');});
+    
+    // chart
+    const ctx=document.getElementById('bookingChart');
+    new Chart(ctx,{
+      type:'line',
+      data:{
+        labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+        datasets:[{
+          label:'Bookings',
+          data:[120,140,165,180,190,210,230,225,240,260,280,300],
+          borderColor:'#fb923c',
+          backgroundColor:'rgba(251,146,60,0.2)',
+          tension:.4,
+          fill:true,
+          pointRadius:0
+        }]
+      },
+      options:{
+        responsive:true,
+        plugins:{legend:{display:false}},
+        scales:{
+          x:{ticks:{color:'#fed7aa',font:{family:'Inter'}},grid:{display:false}},
+          y:{ticks:{color:'#fed7aa',font:{family:'Inter'}},grid:{color:'#1c1917'}}
+        }
+      }
+    });
+    </script>
+    
+    </body></html>
